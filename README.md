@@ -1,6 +1,6 @@
 # 🏡 EstateVista
 
-EstateVista is a modern real estate marketplace built with **React, TypeScript, Tailwind CSS, and Vite**. The platform allows users to browse properties, view detailed listings, send inquiries, and enables realtors to manage properties through a dedicated dashboard.
+EstateVista is a modern real estate marketplace built with **React, TypeScript, Tailwind CSS, Vite and firebase**. The platform allows users to browse properties, view detailed listings, send inquiries in real time, and enables realtors to manage properties through a dedicated dashboard.
 
 ## 🚀 Features
 
