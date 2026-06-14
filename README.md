@@ -59,12 +59,8 @@ http://localhost:5173
 
 ## 🔮 Future Enhancements
 
-* Authentication & Authorization
-* Real-time Chat
-* Property Image Uploads
-* Google Maps Integration
-* Backend Integration (Supabase/Firebase)
+-Google Maps integration for location-based property search.
+-Wishlist and saved properties feature.
+-Property recommendation system using AI/ML.
 
-## 👨‍💻 Developer
 
-**Isha Patel**
