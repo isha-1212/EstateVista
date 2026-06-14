@@ -28,7 +28,7 @@ EstateVista is a modern real estate marketplace built with **React, TypeScript, 
 * Tailwind CSS
 * React Router DOM
 * Lucide React
-*Firebase
+* Firebase
 
 ## 📂 Project Structure
 
