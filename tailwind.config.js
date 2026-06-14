@@ -1,0 +1,91 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        teak: {
+          50: '#faf5f0',
+          100: '#f3ebe0',
+          200: '#e6d4c0',
+          300: '#d7ba95',
+          400: '#c79b6b',
+          500: '#b8864d',
+          600: '#a37141',
+          700: '#875a38',
+          800: '#6e4a32',
+          900: '#5b3e2c',
+          950: '#31201a',
+        },
+        walnut: {
+          50: '#faf8f5',
+          100: '#f3efe7',
+          200: '#e7dccf',
+          300: '#d7c3af',
+          400: '#c5a48a',
+          500: '#b58a6e',
+          600: '#a2755a',
+          700: '#85604a',
+          800: '#6d5040',
+          900: '#5a4438',
+          950: '#30231c',
+        },
+        cream: {
+          50: '#fefdfb',
+          100: '#fdf9f3',
+          200: '#faf3e6',
+          300: '#f5e9d4',
+          400: '#eddcc0',
+          500: '#e3c9a6',
+          600: '#d6b18a',
+          700: '#c5956d',
+          800: '#a57b54',
+          900: '#846545',
+          950: '#463324',
+        },
+        olive: {
+          50: '#f7f9f3',
+          100: '#eef2e5',
+          200: '#dde5cb',
+          300: '#c5d3ab',
+          400: '#a7bc83',
+          500: '#89a266',
+          600: '#6b864d',
+          700: '#536a3d',
+          800: '#445535',
+          900: '#3a472f',
+          950: '#1f2618',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-out',
+        'slide-up': 'slideUp 0.5s ease-out',
+        'scale-in': 'scaleIn 0.3s ease-out',
+        shimmer: 'shimmer 2s linear infinite',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        scaleIn: {
+          '0%': { opacity: '0', transform: 'scale(0.95)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        shimmer: {
+          '0%': { backgroundPosition: '-200% 0' },
+          '100%': { backgroundPosition: '200% 0' },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
