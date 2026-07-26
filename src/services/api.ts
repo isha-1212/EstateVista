@@ -1,7 +1,7 @@
 import { auth } from '../firebaseClient';
 import { Property, Inquiry, User, FilterOptions, PaginatedPropertiesResponse } from '../types';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://3.111.55.169:5000';
 
 interface ApiResponse<T> {
   success?: boolean;
